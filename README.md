@@ -1,5 +1,5 @@
 # conversation_demo
-for anyone quick deploy a bluemix watson conversation demo with node-red integrated with facebook messenger
+for anyone quick deploy a bluemix watson conversation demo with node-red at bluemix integrated into facebook messenger
 
 # about
 this document is focused to anyone, independent of the technical skills, quickly deploy his own watson conversations demo.
@@ -7,9 +7,11 @@ to simplify the front-end development, we will use fecebook messenger as front-e
 in order to simplify the facebook messenger integration with bluemix watson conversations we will use chatfuel.com.
 
 # to start
-you must create a page at facebook. you must have a facebook account.
-you will need an account at chatfuel.com. you will login with the Facebook account.
-you muwt have a bluemix.net account.
+you must create a page at facebook. you must have a facebook account. http://www.facebook.com
+
+you will need an account at chatfuel.com. you will login with the Facebook account. http://www.chatfuel.com
+
+you must have a bluemix.net account. http//:www.bluemix.net
 
 # step 1: facebook page
 create a facebook page in your account. 
