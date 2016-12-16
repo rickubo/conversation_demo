@@ -109,7 +109,10 @@ go to the chatfuel and add another plugin card, but now we will create a json ap
 
 at the json api configuration type the url for the node-red page:
 https://node-red-demo-simple-conversation.mybluemix.net/messenger?message={{watsonMessage}}
-ps: replace "node-red-demo-simple-conversation" with the name of the url of your app, copy the url path in the browser url field once you are at the application's node red page. remember to remove the "/red" part and add "/messenger" which is the node-red flow landing page and add "?message={{watsonMessage}}" to send a parameter forward.
+
+ps: replace "node-red-demo-simple-conversation" with the name of the url of your app.
+
+copy the url path in the browser url field once you are at the application's node red page. remember to remove the "/red" part and add "/messenger", which is the node-red flow landing page. add "?message={{watsonMessage}}" to send a parameter forward to node-red flow.
 
 Now you can open the facebook page and send a message on messenger to try it.
 
