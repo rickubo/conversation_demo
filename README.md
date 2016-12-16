@@ -32,11 +32,15 @@ once you are at bluemix.net dashboard (https://console.ng.bluemix.net/dashboard/
 
 search for watson services and select the Conversation service, in the creation page take a note of the suggested service name and press "create" button. (you may change the service name if you want).
 
-inside the service overall page, press the "launch tool" button
+go to the "service credential" option and pickup the username and password, you will need it to configurate your service at node-red.
+
+<img src="https://github.com/rickubo/conversation_demo/blob/master/img/bm_cv_servCred.png?raw=true">
+
+return to "manage" option in the service overall page, press the "launch tool" button
 
 <img src="https://github.com/rickubo/conversation_demo/blob/master/img/bm_conv_launch.png?raw=true">
 
-you can create a new workspace, if you know how to use this tool, or can import an basic example of dialogs with this file:
+you can create a new conversation workspace, if you know how to use this tool, or can import an basic example of dialogs with this file:
 file json workspace example : workspace-simple-example-english.json or workspace-exemplo-simples-portugues.json
 
 <img src="https://github.com/rickubo/conversation_demo/blob/master/img/bm_cv_create_import.png?raw=true">
@@ -105,9 +109,17 @@ go to the chatfuel and add another plugin card, but now we will create a json ap
 
 at the json api configuration type the url for the node-red page:
 https://node-red-demo-simple-conversation.mybluemix.net/messenger?message={{watsonMessage}}
-ps: replace "node-red-demo-simple-conversation" with the name of the url of your app.
+ps: replace "node-red-demo-simple-conversation" with the name of the url of your app, copy the url path in the browser url field once you are at the application's node red page. remember to remove the "/red" part and add "/messenger" which is the node-red flow landing page and add "?message={{watsonMessage}}" to send a parameter forward.
 
 Now you can open the facebook page and send a message on messenger to try it.
+
+HAVE FUN!!!
+
+THANKS
+
+ricardo KUBO 
+twitter @rickubo
+https://www.linkedin.com/in/ricardokubo
 
 
 
