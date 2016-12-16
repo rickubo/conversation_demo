@@ -34,7 +34,7 @@ search for watson services and select the Conversation service, in the creation 
 
 go to the "service credential" option and pickup the username and password, you will need it to configurate your service at node-red.
 
-<img src="https://github.com/rickubo/conversation_demo/blob/master/img/bm_cv_servCred.png?raw=true">
+<img src="https://github.com/rickubo/conversation_demo/blob/master/img/bm_cv_serviCred.png?raw=true">
 
 return to "manage" option in the service overall page, press the "launch tool" button
 
