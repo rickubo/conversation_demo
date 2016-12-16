@@ -11,7 +11,7 @@ you must create a page at facebook. you must have a facebook account. http://www
 
 you will need an account at chatfuel.com. you will login with the Facebook account. http://www.chatfuel.com
 
-you must have a bluemix.net account. http//:www.bluemix.net
+you must have a bluemix.net account. http://www.bluemix.net
 
 # step 1: facebook page
 create a facebook page in your account. 
